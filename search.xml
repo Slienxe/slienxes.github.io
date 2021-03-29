@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>C51中断嵌套实验</title>
+    <url>/2020/07/19/C51%E4%B8%AD%E6%96%AD%E5%B5%8C%E5%A5%97%E5%AE%9E%E9%AA%8C/</url>
+    <content><![CDATA[<h1 id="C51中断嵌套实验"><a href="#C51中断嵌套实验" class="headerlink" title="C51中断嵌套实验"></a>C51中断嵌套实验</h1><p>指示灯/数码管的中断控制</p>
+<a id="more"></a>
+
+<h2 id="1、电路原理图"><a href="#1、电路原理图" class="headerlink" title="1、电路原理图"></a>1、电路原理图</h2><p><img src="https://img-blog.csdnimg.cn/20200404141744663.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="电路原理图"><br>                                                图1-1：电路原理图<br>说明：<br>如图1-1所示，使用Proteus模拟软件模拟，使用AT89C51作为对象；<br>P0口和P1口分别占用7口用于支持两个一位数码管；<br>P2^0口用作支持一个LED，用于直观表示中断嵌套；<br>P3里接入两个中断控制按钮K1、K2，用于中断程序控制。</p>
+<h2 id="2、外部中断响应处理过程概述"><a href="#2、外部中断响应处理过程概述" class="headerlink" title="2、外部中断响应处理过程概述"></a>2、外部中断响应处理过程概述</h2><p>先按K1再按K2，如果K1没运行完的时候就按下K2，由于程序设计的K2优先级要比K1高，就会让K2中断请求，从而导致K1没运行完的时候，中断K1的运行，开始运行K2，K2运行完毕后，程序回到K1的断点处继续运行，然后回到主程序。<br>经多次测试发现按下按钮触发下降沿中断后，程序每次都会运行两次，经查阅资料发现这应该是按键或是杜邦线接触P3.2口后存在抖动现象，也可能与下降沿触发有关，需要用程序调试，自行消抖。</p>
+<h2 id="3、C51源程序（含注释和流程图）"><a href="#3、C51源程序（含注释和流程图）" class="headerlink" title="3、C51源程序（含注释和流程图）"></a>3、C51源程序（含注释和流程图）</h2><p> <img src="https://img-blog.csdnimg.cn/20200404142035282.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="源代码"><br>图3-1：C51源程序代码<br>源代码如图3-1所示，程序包含两个中断处理程序和主函数，还有一个延时函数。</p>
+<p> <img src="https://img-blog.csdnimg.cn/20200404142056598.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="主程序流程图"><br>图3-2：主程序流程图</p>
+<p><img src="https://img-blog.csdnimg.cn/20200404142117182.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图3-3：中断处理程序流程图</p>
+<h2 id="4、仿真步骤"><a href="#4、仿真步骤" class="headerlink" title="4、仿真步骤"></a>4、仿真步骤</h2><p> <img src="https://img-blog.csdnimg.cn/20200404142415835.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-1：仿真模拟○1<br>如图4-1所示，点击运行按钮后，电路情况如图4-1所示，数码管初始显示99，LED灯亮。<br> <img src="https://img-blog.csdnimg.cn/2020040414240164.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-2：仿真模拟○2<br>如图4-2所示，按下K1后，触发下降沿中断，执行中断处理程序1，DS0从零开始显示到9，LED灯置为亮。</p>
+<p> <img src="https://img-blog.csdnimg.cn/20200404142337132.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-3：仿真模拟○3<br>如图4-3所示，在DS0数码管显示期间，按下K2触发下降沿中断，因为程序设置：K2的优先级高于K1，所以导致程序跳出DS0数码管，开始执行高优先级的中断处理程序，DS1数码管开始从0显示到9，同时LED灯灭。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200404142328779.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-4：仿真模拟○4<br>如图4-4所示，当高优先级的中断处理程序执行完毕后，程序继续在跳出处执行第一个中断处理程序，即DS0数码管接着原来的程序执行，同时LED灯置为灭。</p>
+<p> <img src="https://img-blog.csdnimg.cn/20200404142319807.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-5：仿真模拟○5<br>如图4-5所示，DS0数码管运行完毕后，程序跳回主程序，执行两个数码管显示99，LED灯亮的代码。</p>
+<h2 id="5、小结"><a href="#5、小结" class="headerlink" title="5、小结"></a>5、小结</h2><p>通过本次实验作业，让我能够自己编写基本的C51程序，能够画出来比较简单的电路原理图，同时也学到了很多单片机的知识，巩固了课堂上老师教的一些重点难点。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>C51基本操作</title>
     <url>/2020/07/19/C51%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<h1 id="《单片机原理及应用》实验报告"><a href="#《单片机原理及应用》实验报告" class="headerlink" title="《单片机原理及应用》实验报告"></a>《单片机原理及应用》实验报告</h1><h1 id="实验题目：C51和Proteus的安装及基本操作"><a href="#实验题目：C51和Proteus的安装及基本操作" class="headerlink" title="实验题目：C51和Proteus的安装及基本操作"></a>实验题目：C51和Proteus的安装及基本操作</h1><a id="more"></a>
@@ -36,6 +54,15 @@
       <tags>
         <tag>杂项</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2021/03/29/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</url>
+    <content><![CDATA[<a id="more"></a>
+
+<h1 id="aaaaaa"><a href="#aaaaaa" class="headerlink" title="aaaaaa"></a>aaaaaa</h1><p>我就很反感大家老是那么说我，</p>
+<h2 id="bbbbbb"><a href="#bbbbbb" class="headerlink" title="bbbbbb"></a>bbbbbb</h2><p>除了有才，就只剩下那无可比拟的颜值。</p>
+]]></content>
   </entry>
   <entry>
     <title>思想汇报审核程序V1.0</title>
@@ -84,24 +111,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>C51中断嵌套实验</title>
-    <url>/2020/07/19/C51%E4%B8%AD%E6%96%AD%E5%B5%8C%E5%A5%97%E5%AE%9E%E9%AA%8C/</url>
-    <content><![CDATA[<h1 id="C51中断嵌套实验"><a href="#C51中断嵌套实验" class="headerlink" title="C51中断嵌套实验"></a>C51中断嵌套实验</h1><p>指示灯/数码管的中断控制</p>
-<a id="more"></a>
-
-<h2 id="1、电路原理图"><a href="#1、电路原理图" class="headerlink" title="1、电路原理图"></a>1、电路原理图</h2><p><img src="https://img-blog.csdnimg.cn/20200404141744663.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="电路原理图"><br>                                                图1-1：电路原理图<br>说明：<br>如图1-1所示，使用Proteus模拟软件模拟，使用AT89C51作为对象；<br>P0口和P1口分别占用7口用于支持两个一位数码管；<br>P2^0口用作支持一个LED，用于直观表示中断嵌套；<br>P3里接入两个中断控制按钮K1、K2，用于中断程序控制。</p>
-<h2 id="2、外部中断响应处理过程概述"><a href="#2、外部中断响应处理过程概述" class="headerlink" title="2、外部中断响应处理过程概述"></a>2、外部中断响应处理过程概述</h2><p>先按K1再按K2，如果K1没运行完的时候就按下K2，由于程序设计的K2优先级要比K1高，就会让K2中断请求，从而导致K1没运行完的时候，中断K1的运行，开始运行K2，K2运行完毕后，程序回到K1的断点处继续运行，然后回到主程序。<br>经多次测试发现按下按钮触发下降沿中断后，程序每次都会运行两次，经查阅资料发现这应该是按键或是杜邦线接触P3.2口后存在抖动现象，也可能与下降沿触发有关，需要用程序调试，自行消抖。</p>
-<h2 id="3、C51源程序（含注释和流程图）"><a href="#3、C51源程序（含注释和流程图）" class="headerlink" title="3、C51源程序（含注释和流程图）"></a>3、C51源程序（含注释和流程图）</h2><p> <img src="https://img-blog.csdnimg.cn/20200404142035282.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="源代码"><br>图3-1：C51源程序代码<br>源代码如图3-1所示，程序包含两个中断处理程序和主函数，还有一个延时函数。</p>
-<p> <img src="https://img-blog.csdnimg.cn/20200404142056598.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="主程序流程图"><br>图3-2：主程序流程图</p>
-<p><img src="https://img-blog.csdnimg.cn/20200404142117182.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图3-3：中断处理程序流程图</p>
-<h2 id="4、仿真步骤"><a href="#4、仿真步骤" class="headerlink" title="4、仿真步骤"></a>4、仿真步骤</h2><p> <img src="https://img-blog.csdnimg.cn/20200404142415835.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-1：仿真模拟○1<br>如图4-1所示，点击运行按钮后，电路情况如图4-1所示，数码管初始显示99，LED灯亮。<br> <img src="https://img-blog.csdnimg.cn/2020040414240164.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-2：仿真模拟○2<br>如图4-2所示，按下K1后，触发下降沿中断，执行中断处理程序1，DS0从零开始显示到9，LED灯置为亮。</p>
-<p> <img src="https://img-blog.csdnimg.cn/20200404142337132.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-3：仿真模拟○3<br>如图4-3所示，在DS0数码管显示期间，按下K2触发下降沿中断，因为程序设置：K2的优先级高于K1，所以导致程序跳出DS0数码管，开始执行高优先级的中断处理程序，DS1数码管开始从0显示到9，同时LED灯灭。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200404142328779.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-4：仿真模拟○4<br>如图4-4所示，当高优先级的中断处理程序执行完毕后，程序继续在跳出处执行第一个中断处理程序，即DS0数码管接着原来的程序执行，同时LED灯置为灭。</p>
-<p> <img src="https://img-blog.csdnimg.cn/20200404142319807.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-5：仿真模拟○5<br>如图4-5所示，DS0数码管运行完毕后，程序跳回主程序，执行两个数码管显示99，LED灯亮的代码。</p>
-<h2 id="5、小结"><a href="#5、小结" class="headerlink" title="5、小结"></a>5、小结</h2><p>通过本次实验作业，让我能够自己编写基本的C51程序，能够画出来比较简单的电路原理图，同时也学到了很多单片机的知识，巩固了课堂上老师教的一些重点难点。</p>
 ]]></content>
   </entry>
 </search>
