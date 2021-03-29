@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2021-03-29T09:08:18.387Z</updated>
+  <updated>2021-03-29T09:13:04.059Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2021/03/29/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/"/>
     <id>http://yoursite.com/2021/03/29/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</id>
     <published>2021-03-29T07:28:02.000Z</published>
-    <updated>2021-03-29T09:08:18.387Z</updated>
+    <updated>2021-03-29T09:13:04.059Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p> 测试。</p><a id="more"></a><h1 id="aaaaaa"><a href="#aaaaaa" class="headerlink" title="aaaaaa"></a>aaaaaa</h1>        <div id="aplayer-iZIHsPfD" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-iZIHsPfD"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "测试",              author: "哈哈哈",              url: "https://lc-gluttony.s3.amazonaws.com/sd1Oz37lBtx1/geqUPDzNMPCjaq1qEA2mukTrgk0sAhJW/%E6%9C%B4%E6%A0%91%20-%20%E5%B9%B3%E5%87%A1%E4% B9％8B％E8％B7％AF.mp3",              pic: "https://lc-gluttony.s3.amazonaws.com/sd1Oz37lBtx1/nrUfdd3HEUTdx77LKKMbxy5xcu1fBe5A/%E5%A5%87%E6%80%AA%E7%9A%84%E7%9F%A5%E8%AF%86%E5%A2%9E%E5%8A%A0%E4%BA%86.png",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>我就很反感大家老是那么说我，</p><h2 id="bbbbbb"><a href="#bbbbbb" class="headerlink" title="bbbbbb"></a>bbbbbb</h2><p>除了有才，就只剩下那无可比拟的颜值。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p> 测试。</p><a id="more"></a><h1 id="aaaaaa"><a href="#aaaaaa" class="headerlink" title="aaaaaa"></a>aaaaaa</h1>        <div id="aplayer-qnLcVdrp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-qnLcVdrp"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "测试",              author: "哈哈哈",              url: "https://lc-gluttony.s3.amazonaws.com/sd1Oz37lBtx1/geqUPDzNMPCjaq1qEA2mukTrgk0sAhJW/%E6%9C%B4%E6%A0%91%20-%20%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3",              pic: "https://lc-gluttony.s3.amazonaws.com/sd1Oz37lBtx1/nrUfdd3HEUTdx77LKKMbxy5xcu1fBe5A/%E5%A5%87%E6%80%AA%E7%9A%84%E7%9F%A5%E8%AF%86%E5%A2%9E%E5%8A%A0%E4%BA%86.png",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>我就很反感大家老是那么说我，</p><h2 id="bbbbbb"><a href="#bbbbbb" class="headerlink" title="bbbbbb"></a>bbbbbb</h2><p>除了有才，就只剩下那无可比拟的颜值。</p>]]></content>
     
     <summary type="html">
     
