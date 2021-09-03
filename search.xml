@@ -19,6 +19,23 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Popi提问箱</title>
+    <url>/2020/08/23/popi%E6%8F%90%E9%97%AE%E7%AE%B1%EF%BC%88%E6%A8%A1%E6%8B%9F%EF%BC%89/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天看到一个软件（Popi），我感觉它的运行模式很不错，核心主打熟人社交，匿名互动，很有意思。</p>
+<a id="more"></a>
+
+<p>在这里蹲一波Popi的成功。这里放一个<a href="http://www.popiapp.cn/419Lning" target="_blank" rel="noopener">我的popi提问箱</a>，欢迎提问(*￣︶￣)。</p>
+<p>我感觉这种模式很不错，其实在这里也可以模拟实现，本站点采用<a href="https://leancloud.cn/dashboard/applist.html#/apps" target="_blank" rel="noopener">LeanCloud</a>的接口来搭建评论系统，经测试完美兼容，可以运行。</p>
+<p>LeanCloud的优点就是不用登陆，游客即可以实时评论，很方便，也欢迎大家前来灌水(￣▽￣)~*。</p>
+]]></content>
+      <categories>
+        <category>杂项</category>
+      </categories>
+      <tags>
+        <tag>杂项</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2020/07/17/hello-world/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -39,20 +56,43 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Popi提问箱</title>
-    <url>/2020/08/23/popi%E6%8F%90%E9%97%AE%E7%AE%B1%EF%BC%88%E6%A8%A1%E6%8B%9F%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天看到一个软件（Popi），我感觉它的运行模式很不错，核心主打熟人社交，匿名互动，很有意思。</p>
+    <title>C51基本操作</title>
+    <url>/2020/07/19/C51%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="《单片机原理及应用》实验报告"><a href="#《单片机原理及应用》实验报告" class="headerlink" title="《单片机原理及应用》实验报告"></a>《单片机原理及应用》实验报告</h1><h1 id="实验题目：C51和Proteus的安装及基本操作"><a href="#实验题目：C51和Proteus的安装及基本操作" class="headerlink" title="实验题目：C51和Proteus的安装及基本操作"></a>实验题目：C51和Proteus的安装及基本操作</h1><a id="more"></a>
+
+
+<h3 id="1、实验目的与任务"><a href="#1、实验目的与任务" class="headerlink" title="1、实验目的与任务"></a>1、实验目的与任务</h3><p>实验目的：</p>
+<ol>
+<li>掌握KeilC集成开发环境的安装及基本操作；</li>
+<li>掌握Protues仿真软件的安装及基本操作。<br>任务：</li>
+<li>完成KeilC集成开发环境的安装，建立工程；</li>
+<li>完成Protues仿真软件的安装，建立工程；</li>
+<li>完成所建工程的仿真及调试。</li>
+</ol>
+<h3 id="2、实验内容及要求"><a href="#2、实验内容及要求" class="headerlink" title="2、实验内容及要求"></a>2、实验内容及要求</h3><p>1、安装KeilC集成开发软件，建立工程，配置编译环境参数并调试。<br>2、安装Protues仿真软件，建立工程，熟悉基本操作，查看元器件库，完成原理图并载入程序进行调试。</p>
+<h3 id="3、实验步骤"><a href="#3、实验步骤" class="headerlink" title="3、实验步骤"></a>3、实验步骤</h3><h5 id="一、软件部分"><a href="#一、软件部分" class="headerlink" title="一、软件部分"></a>一、软件部分</h5><p>①、程序调试<br>构建名为esimlab1.uvproj的工程，并建立源程序esimlab1.c，将源文件加入上述工程，设置好工程属性后开始编译并构造程序。<br> <img src="https://img-blog.csdnimg.cn/20200422113320318.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="源代码">图3-1：源代码（加注释）<br>②、示例程序功能<br>利用程序控制P1口高四位用于控制LED灯的亮灭，低四位用于读取开关状态，并能够利用位运算将开关状态反馈到对应的LED灯上，达到控制其亮灭的要求。<br>③、程序单步调试<br> <img src="https://img-blog.csdnimg.cn/20200422113351757.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="单步调试">图3-2：程序单步调试</p>
+<h5 id="二、硬件部分"><a href="#二、硬件部分" class="headerlink" title="二、硬件部分"></a>二、硬件部分</h5><p>①、硬件原理与调试<br>运行Proteus开发环境，建立新工程，新建原理图设计文件，查找元件库，将元件调入元件列表。设置单片机属性，将其晶振频率设置为12MHz，载入KEIL生成的文件esimlab1.hex。<br>②、仿真结果<br>经过调试，我们可以清晰地看到仿真结果，程序运行良好，无重大错误，每个开关对应一个LED灯，效果良好<br> <img src="https://img-blog.csdnimg.cn/20200422113837308.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="仿真结果">图3-3：仿真结果</p>
+<h3 id="4、实验小结"><a href="#4、实验小结" class="headerlink" title="4、实验小结"></a>4、实验小结</h3><p>本次实验比较简单，完成十分顺利，这和平时的积累是分不开的，同时，通过实验也可以更好地了解自己是否掌握了相关知识，毕竟只有动手才知道自己会不会，是不是真会。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2021/03/29/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 测试。</p>
 <a id="more"></a>
 
-<p>在这里蹲一波Popi的成功。这里放一个<a href="http://www.popiapp.cn/419Lning" target="_blank" rel="noopener">我的popi提问箱</a>，欢迎提问(*￣︶￣)。</p>
-<p>我感觉这种模式很不错，其实在这里也可以模拟实现，本站点采用<a href="https://leancloud.cn/dashboard/applist.html#/apps" target="_blank" rel="noopener">LeanCloud</a>的接口来搭建评论系统，经测试完美兼容，可以运行。</p>
-<p>LeanCloud的优点就是不用登陆，游客即可以实时评论，很方便，也欢迎大家前来灌水(￣▽￣)~*。</p>
+<h1 id="aaaaaa"><a href="#aaaaaa" class="headerlink" title="aaaaaa"></a>aaaaaa</h1>
+    <div id="aplayer-JWsjWKWe" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="215929042" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
+    ></div>
+<p>我就很反感大家老是那么说我，</p>
+<h2 id="bbbbbb"><a href="#bbbbbb" class="headerlink" title="bbbbbb"></a>bbbbbb</h2><p>除了有才，就只剩下那无可比拟的颜值。</p>
 ]]></content>
       <categories>
-        <category>杂项</category>
+        <category>密码</category>
       </categories>
       <tags>
-        <tag>杂项</tag>
+        <tag>密码</tag>
       </tags>
   </entry>
   <entry>
@@ -83,46 +123,6 @@
 <li>执行下面的命令：<br>git clone <a href="https://github.com/theme-next/theme-next-canvas-nest" target="_blank" rel="noopener">https://github.com/theme-next/theme-next-canvas-nest</a> source/lib/canvas-nest（意思就是将一个显示动效的js文件clone到对应目录）</li>
 <li>这时将配置文件_config.yml中的canvas_nest: false改为canvas_nest: true才能真正生效。</li>
 </ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2021/03/29/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 测试。</p>
-<a id="more"></a>
-
-<h1 id="aaaaaa"><a href="#aaaaaa" class="headerlink" title="aaaaaa"></a>aaaaaa</h1>
-    <div id="aplayer-AjRsKIqH" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="215929042" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
-    ></div>
-<p>我就很反感大家老是那么说我，</p>
-<h2 id="bbbbbb"><a href="#bbbbbb" class="headerlink" title="bbbbbb"></a>bbbbbb</h2><p>除了有才，就只剩下那无可比拟的颜值。</p>
-]]></content>
-      <categories>
-        <category>密码</category>
-      </categories>
-      <tags>
-        <tag>密码</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C51基本操作</title>
-    <url>/2020/07/19/C51%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="《单片机原理及应用》实验报告"><a href="#《单片机原理及应用》实验报告" class="headerlink" title="《单片机原理及应用》实验报告"></a>《单片机原理及应用》实验报告</h1><h1 id="实验题目：C51和Proteus的安装及基本操作"><a href="#实验题目：C51和Proteus的安装及基本操作" class="headerlink" title="实验题目：C51和Proteus的安装及基本操作"></a>实验题目：C51和Proteus的安装及基本操作</h1><a id="more"></a>
-
-
-<h3 id="1、实验目的与任务"><a href="#1、实验目的与任务" class="headerlink" title="1、实验目的与任务"></a>1、实验目的与任务</h3><p>实验目的：</p>
-<ol>
-<li>掌握KeilC集成开发环境的安装及基本操作；</li>
-<li>掌握Protues仿真软件的安装及基本操作。<br>任务：</li>
-<li>完成KeilC集成开发环境的安装，建立工程；</li>
-<li>完成Protues仿真软件的安装，建立工程；</li>
-<li>完成所建工程的仿真及调试。</li>
-</ol>
-<h3 id="2、实验内容及要求"><a href="#2、实验内容及要求" class="headerlink" title="2、实验内容及要求"></a>2、实验内容及要求</h3><p>1、安装KeilC集成开发软件，建立工程，配置编译环境参数并调试。<br>2、安装Protues仿真软件，建立工程，熟悉基本操作，查看元器件库，完成原理图并载入程序进行调试。</p>
-<h3 id="3、实验步骤"><a href="#3、实验步骤" class="headerlink" title="3、实验步骤"></a>3、实验步骤</h3><h5 id="一、软件部分"><a href="#一、软件部分" class="headerlink" title="一、软件部分"></a>一、软件部分</h5><p>①、程序调试<br>构建名为esimlab1.uvproj的工程，并建立源程序esimlab1.c，将源文件加入上述工程，设置好工程属性后开始编译并构造程序。<br> <img src="https://img-blog.csdnimg.cn/20200422113320318.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="源代码">图3-1：源代码（加注释）<br>②、示例程序功能<br>利用程序控制P1口高四位用于控制LED灯的亮灭，低四位用于读取开关状态，并能够利用位运算将开关状态反馈到对应的LED灯上，达到控制其亮灭的要求。<br>③、程序单步调试<br> <img src="https://img-blog.csdnimg.cn/20200422113351757.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="单步调试">图3-2：程序单步调试</p>
-<h5 id="二、硬件部分"><a href="#二、硬件部分" class="headerlink" title="二、硬件部分"></a>二、硬件部分</h5><p>①、硬件原理与调试<br>运行Proteus开发环境，建立新工程，新建原理图设计文件，查找元件库，将元件调入元件列表。设置单片机属性，将其晶振频率设置为12MHz，载入KEIL生成的文件esimlab1.hex。<br>②、仿真结果<br>经过调试，我们可以清晰地看到仿真结果，程序运行良好，无重大错误，每个开关对应一个LED灯，效果良好<br> <img src="https://img-blog.csdnimg.cn/20200422113837308.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="仿真结果">图3-3：仿真结果</p>
-<h3 id="4、实验小结"><a href="#4、实验小结" class="headerlink" title="4、实验小结"></a>4、实验小结</h3><p>本次实验比较简单，完成十分顺利，这和平时的积累是分不开的，同时，通过实验也可以更好地了解自己是否掌握了相关知识，毕竟只有动手才知道自己会不会，是不是真会。</p>
 ]]></content>
   </entry>
 </search>
