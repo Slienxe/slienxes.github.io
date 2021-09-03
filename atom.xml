@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Virtual World</title>
+  
+  <subtitle>看见、记录</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2021-03-29T10:34:33.918Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Li Ning</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://yoursite.com/2021/03/29/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/"/>
+    <id>http://yoursite.com/2021/03/29/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</id>
+    <published>2021-03-29T07:28:02.000Z</published>
+    <updated>2021-03-29T10:34:33.918Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 测试。</p><a id="more"></a><h1 id="aaaaaa"><a href="#aaaaaa" class="headerlink" title="aaaaaa"></a>aaaaaa</h1>    <div id="aplayer-xehbfAXR" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="215929042" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>我就很反感大家老是那么说我，</p><h2 id="bbbbbb"><a href="#bbbbbb" class="headerlink" title="bbbbbb"></a>bbbbbb</h2><p>除了有才，就只剩下那无可比拟的颜值。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 测试。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="密码" scheme="http://yoursite.com/categories/%E5%AF%86%E7%A0%81/"/>
+    
+    
+      <category term="密码" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>思想汇报审核程序V1.0</title>
+    <link href="http://yoursite.com/2021/02/06/%E6%80%9D%E6%83%B3%E6%B1%87%E6%8A%A5%E5%AE%A1%E6%A0%B8/"/>
+    <id>http://yoursite.com/2021/02/06/%E6%80%9D%E6%83%B3%E6%B1%87%E6%8A%A5%E5%AE%A1%E6%A0%B8/</id>
+    <published>2021-02-06T11:02:15.000Z</published>
+    <updated>2021-03-29T09:13:52.660Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p> 小程序</p><a id="more"></a><p>实际上第一个完成的小程序，真正上的第一个还鸽着呢- -||<br>下面是运行截图：<br><img src="https://img-blog.csdnimg.cn/20210206194108748.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述">)<img src="https://img-blog.csdnimg.cn/20210206194139960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>对本程序有任何问题可以在评论区讨论奥。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 小程序&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="小程序" scheme="http://yoursite.com/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="小程序" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+      <category term="自然语言处理" scheme="http://yoursite.com/tags/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Popi提问箱</title>
+    <link href="http://yoursite.com/2020/08/23/popi%E6%8F%90%E9%97%AE%E7%AE%B1%EF%BC%88%E6%A8%A1%E6%8B%9F%EF%BC%89/"/>
+    <id>http://yoursite.com/2020/08/23/popi%E6%8F%90%E9%97%AE%E7%AE%B1%EF%BC%88%E6%A8%A1%E6%8B%9F%EF%BC%89/</id>
+    <published>2020-08-23T11:38:44.000Z</published>
+    <updated>2020-08-23T11:46:55.625Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天看到一个软件（Popi），我感觉它的运行模式很不错，核心主打熟人社交，匿名互动，很有意思。</p><a id="more"></a><p>在这里蹲一波Popi的成功。这里放一个<a href="http://www.popiapp.cn/419Lning" target="_blank" rel="noopener">我的popi提问箱</a>，欢迎提问(*￣︶￣)。</p><p>我感觉这种模式很不错，其实在这里也可以模拟实现，本站点采用<a href="https://leancloud.cn/dashboard/applist.html#/apps" target="_blank" rel="noopener">LeanCloud</a>的接口来搭建评论系统，经测试完美兼容，可以运行。</p><p>LeanCloud的优点就是不用登陆，游客即可以实时评论，很方便，也欢迎大家前来灌水(￣▽￣)~*。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天看到一个软件（Popi），我感觉它的运行模式很不错，核心主打熟人社交，匿名互动，很有意思。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="杂项" scheme="http://yoursite.com/categories/%E6%9D%82%E9%A1%B9/"/>
+    
+    
+      <category term="杂项" scheme="http://yoursite.com/tags/%E6%9D%82%E9%A1%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站搭建过程中遇到的问题汇总</title>
+    <link href="http://yoursite.com/2020/07/19/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/"/>
+    <id>http://yoursite.com/2020/07/19/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/</id>
+    <published>2020-07-19T14:00:06.503Z</published>
+    <updated>2020-07-19T14:08:21.380Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="网站搭建过程中的问题汇总"><a href="#网站搭建过程中的问题汇总" class="headerlink" title="网站搭建过程中的问题汇总"></a>网站搭建过程中的问题汇总</h2><a id="more"></a><h2 id="一、关于动态背景的问题"><a href="#一、关于动态背景的问题" class="headerlink" title="一、关于动态背景的问题"></a>一、关于动态背景的问题</h2><h3 id="1、在之前的版本，可以直接使用以下这种方式"><a href="#1、在之前的版本，可以直接使用以下这种方式" class="headerlink" title="1、在之前的版本，可以直接使用以下这种方式"></a>1、在之前的版本，可以直接使用以下这种方式</h3><p>在themes/next目录下，将配置文件_config.yml中找到canvas_nest: false，改为canvas_nest: true这种方式即可解决。</p><h3 id="2、而如果是6-0-的版本中，需要使用以下方式解决此问题"><a href="#2、而如果是6-0-的版本中，需要使用以下方式解决此问题" class="headerlink" title="2、而如果是6.0+的版本中，需要使用以下方式解决此问题"></a>2、而如果是6.0+的版本中，需要使用以下方式解决此问题</h3><ol><li>进入theme/next目录</li><li>执行下面的命令：<br>git clone <a href="https://github.com/theme-next/theme-next-canvas-nest" target="_blank" rel="noopener">https://github.com/theme-next/theme-next-canvas-nest</a> source/lib/canvas-nest（意思就是将一个显示动效的js文件clone到对应目录）</li><li>这时将配置文件_config.yml中的canvas_nest: false改为canvas_nest: true才能真正生效。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;网站搭建过程中的问题汇总&quot;&gt;&lt;a href=&quot;#网站搭建过程中的问题汇总&quot; class=&quot;headerlink&quot; title=&quot;网站搭建过程中的问题汇总&quot;&gt;&lt;/a&gt;网站搭建过程中的问题汇总&lt;/h2&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C51中断嵌套实验</title>
+    <link href="http://yoursite.com/2020/07/19/C51%E4%B8%AD%E6%96%AD%E5%B5%8C%E5%A5%97%E5%AE%9E%E9%AA%8C/"/>
+    <id>http://yoursite.com/2020/07/19/C51%E4%B8%AD%E6%96%AD%E5%B5%8C%E5%A5%97%E5%AE%9E%E9%AA%8C/</id>
+    <published>2020-07-19T14:00:06.500Z</published>
+    <updated>2020-07-19T14:07:56.926Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="C51中断嵌套实验"><a href="#C51中断嵌套实验" class="headerlink" title="C51中断嵌套实验"></a>C51中断嵌套实验</h1><p>指示灯/数码管的中断控制</p><a id="more"></a><h2 id="1、电路原理图"><a href="#1、电路原理图" class="headerlink" title="1、电路原理图"></a>1、电路原理图</h2><p><img src="https://img-blog.csdnimg.cn/20200404141744663.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="电路原理图"><br>                                                图1-1：电路原理图<br>说明：<br>如图1-1所示，使用Proteus模拟软件模拟，使用AT89C51作为对象；<br>P0口和P1口分别占用7口用于支持两个一位数码管；<br>P2^0口用作支持一个LED，用于直观表示中断嵌套；<br>P3里接入两个中断控制按钮K1、K2，用于中断程序控制。</p><h2 id="2、外部中断响应处理过程概述"><a href="#2、外部中断响应处理过程概述" class="headerlink" title="2、外部中断响应处理过程概述"></a>2、外部中断响应处理过程概述</h2><p>先按K1再按K2，如果K1没运行完的时候就按下K2，由于程序设计的K2优先级要比K1高，就会让K2中断请求，从而导致K1没运行完的时候，中断K1的运行，开始运行K2，K2运行完毕后，程序回到K1的断点处继续运行，然后回到主程序。<br>经多次测试发现按下按钮触发下降沿中断后，程序每次都会运行两次，经查阅资料发现这应该是按键或是杜邦线接触P3.2口后存在抖动现象，也可能与下降沿触发有关，需要用程序调试，自行消抖。</p><h2 id="3、C51源程序（含注释和流程图）"><a href="#3、C51源程序（含注释和流程图）" class="headerlink" title="3、C51源程序（含注释和流程图）"></a>3、C51源程序（含注释和流程图）</h2><p> <img src="https://img-blog.csdnimg.cn/20200404142035282.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="源代码"><br>图3-1：C51源程序代码<br>源代码如图3-1所示，程序包含两个中断处理程序和主函数，还有一个延时函数。</p><p> <img src="https://img-blog.csdnimg.cn/20200404142056598.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="主程序流程图"><br>图3-2：主程序流程图</p><p><img src="https://img-blog.csdnimg.cn/20200404142117182.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图3-3：中断处理程序流程图</p><h2 id="4、仿真步骤"><a href="#4、仿真步骤" class="headerlink" title="4、仿真步骤"></a>4、仿真步骤</h2><p> <img src="https://img-blog.csdnimg.cn/20200404142415835.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-1：仿真模拟○1<br>如图4-1所示，点击运行按钮后，电路情况如图4-1所示，数码管初始显示99，LED灯亮。<br> <img src="https://img-blog.csdnimg.cn/2020040414240164.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-2：仿真模拟○2<br>如图4-2所示，按下K1后，触发下降沿中断，执行中断处理程序1，DS0从零开始显示到9，LED灯置为亮。</p><p> <img src="https://img-blog.csdnimg.cn/20200404142337132.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-3：仿真模拟○3<br>如图4-3所示，在DS0数码管显示期间，按下K2触发下降沿中断，因为程序设置：K2的优先级高于K1，所以导致程序跳出DS0数码管，开始执行高优先级的中断处理程序，DS1数码管开始从0显示到9，同时LED灯灭。</p><p><img src="https://img-blog.csdnimg.cn/20200404142328779.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-4：仿真模拟○4<br>如图4-4所示，当高优先级的中断处理程序执行完毕后，程序继续在跳出处执行第一个中断处理程序，即DS0数码管接着原来的程序执行，同时LED灯置为灭。</p><p> <img src="https://img-blog.csdnimg.cn/20200404142319807.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>图4-5：仿真模拟○5<br>如图4-5所示，DS0数码管运行完毕后，程序跳回主程序，执行两个数码管显示99，LED灯亮的代码。</p><h2 id="5、小结"><a href="#5、小结" class="headerlink" title="5、小结"></a>5、小结</h2><p>通过本次实验作业，让我能够自己编写基本的C51程序，能够画出来比较简单的电路原理图，同时也学到了很多单片机的知识，巩固了课堂上老师教的一些重点难点。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;C51中断嵌套实验&quot;&gt;&lt;a href=&quot;#C51中断嵌套实验&quot; class=&quot;headerlink&quot; title=&quot;C51中断嵌套实验&quot;&gt;&lt;/a&gt;C51中断嵌套实验&lt;/h1&gt;&lt;p&gt;指示灯/数码管的中断控制&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C51基本操作</title>
+    <link href="http://yoursite.com/2020/07/19/C51%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+    <id>http://yoursite.com/2020/07/19/C51%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
+    <published>2020-07-19T13:59:53.847Z</published>
+    <updated>2020-07-19T13:59:23.426Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="《单片机原理及应用》实验报告"><a href="#《单片机原理及应用》实验报告" class="headerlink" title="《单片机原理及应用》实验报告"></a>《单片机原理及应用》实验报告</h1><h1 id="实验题目：C51和Proteus的安装及基本操作"><a href="#实验题目：C51和Proteus的安装及基本操作" class="headerlink" title="实验题目：C51和Proteus的安装及基本操作"></a>实验题目：C51和Proteus的安装及基本操作</h1><a id="more"></a><h3 id="1、实验目的与任务"><a href="#1、实验目的与任务" class="headerlink" title="1、实验目的与任务"></a>1、实验目的与任务</h3><p>实验目的：</p><ol><li>掌握KeilC集成开发环境的安装及基本操作；</li><li>掌握Protues仿真软件的安装及基本操作。<br>任务：</li><li>完成KeilC集成开发环境的安装，建立工程；</li><li>完成Protues仿真软件的安装，建立工程；</li><li>完成所建工程的仿真及调试。</li></ol><h3 id="2、实验内容及要求"><a href="#2、实验内容及要求" class="headerlink" title="2、实验内容及要求"></a>2、实验内容及要求</h3><p>1、安装KeilC集成开发软件，建立工程，配置编译环境参数并调试。<br>2、安装Protues仿真软件，建立工程，熟悉基本操作，查看元器件库，完成原理图并载入程序进行调试。</p><h3 id="3、实验步骤"><a href="#3、实验步骤" class="headerlink" title="3、实验步骤"></a>3、实验步骤</h3><h5 id="一、软件部分"><a href="#一、软件部分" class="headerlink" title="一、软件部分"></a>一、软件部分</h5><p>①、程序调试<br>构建名为esimlab1.uvproj的工程，并建立源程序esimlab1.c，将源文件加入上述工程，设置好工程属性后开始编译并构造程序。<br> <img src="https://img-blog.csdnimg.cn/20200422113320318.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="源代码">图3-1：源代码（加注释）<br>②、示例程序功能<br>利用程序控制P1口高四位用于控制LED灯的亮灭，低四位用于读取开关状态，并能够利用位运算将开关状态反馈到对应的LED灯上，达到控制其亮灭的要求。<br>③、程序单步调试<br> <img src="https://img-blog.csdnimg.cn/20200422113351757.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="单步调试">图3-2：程序单步调试</p><h5 id="二、硬件部分"><a href="#二、硬件部分" class="headerlink" title="二、硬件部分"></a>二、硬件部分</h5><p>①、硬件原理与调试<br>运行Proteus开发环境，建立新工程，新建原理图设计文件，查找元件库，将元件调入元件列表。设置单片机属性，将其晶振频率设置为12MHz，载入KEIL生成的文件esimlab1.hex。<br>②、仿真结果<br>经过调试，我们可以清晰地看到仿真结果，程序运行良好，无重大错误，每个开关对应一个LED灯，效果良好<br> <img src="https://img-blog.csdnimg.cn/20200422113837308.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0MjkzOTE0,size_16,color_FFFFFF,t_70" alt="仿真结果">图3-3：仿真结果</p><h3 id="4、实验小结"><a href="#4、实验小结" class="headerlink" title="4、实验小结"></a>4、实验小结</h3><p>本次实验比较简单，完成十分顺利，这和平时的积累是分不开的，同时，通过实验也可以更好地了解自己是否掌握了相关知识，毕竟只有动手才知道自己会不会，是不是真会。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;《单片机原理及应用》实验报告&quot;&gt;&lt;a href=&quot;#《单片机原理及应用》实验报告&quot; class=&quot;headerlink&quot; title=&quot;《单片机原理及应用》实验报告&quot;&gt;&lt;/a&gt;《单片机原理及应用》实验报告&lt;/h1&gt;&lt;h1 id=&quot;实验题目：C51和Proteus的安装及基本操作&quot;&gt;&lt;a href=&quot;#实验题目：C51和Proteus的安装及基本操作&quot; class=&quot;headerlink&quot; title=&quot;实验题目：C51和Proteus的安装及基本操作&quot;&gt;&lt;/a&gt;实验题目：C51和Proteus的安装及基本操作&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/07/17/hello-world/"/>
+    <id>http://yoursite.com/2020/07/17/hello-world/</id>
+    <published>2020-07-17T03:17:40.694Z</published>
+    <updated>2020-07-19T14:26:00.456Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
